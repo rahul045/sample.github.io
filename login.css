@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('login-bg.svg');
+    background-repeat: no-repeat;
+    background-position: 50px 10px;
+    background-color: blueviolet;
+}
+
+.txt {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 120px;
+    left: 600px;
+    border: 2px solid black;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+
+
+}
+
+
+
+.inp {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.cd {
+    margin: 12px;
+}
+
+.cd input {
+    outline: none;
+    width: 300px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    color: rgb(11, 8, 8);
+    margin: 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(9, 9, 9);
+    font-weight: bold;
+    background: none;
+
+}
+
+.btn:hover {
+    color: rgb(240, 232, 232);
+    background: rgb(15, 14, 14);
+    opacity: 0.5;
+}

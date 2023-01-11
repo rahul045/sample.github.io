@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.txt {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(227, 204, 249);
+
+}
+
+body {
+    background-image: url('feedback.webp');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center 40px;
+    background-color: blueviolet;
+}
+
+textarea {
+    outline: none;
+    font-size: 15px;
+}
+
+.para {
+    color: white;
+    position: relative;
+    right: 1px;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 350px;
+    left: 500px;
+}
+
+.btn {
+    margin: 3px;
+    padding: 2px;
+    width: 150px;
+    color: white;
+    height: 35px;
+    font-weight: bold;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.326);
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: blueviolet;
+    background-color: rgb(248, 230, 76);
+}
