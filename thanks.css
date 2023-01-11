@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     background-position: center 60px;
     background-color: blueviolet;
+    background-size: 563px;
 }
 
 .btn {
@@ -35,6 +36,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    top: 450px;
+    top: 460px;
     left: 560px;
 }
